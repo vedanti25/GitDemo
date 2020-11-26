@@ -1,0 +1,41 @@
+<html>
+<head>
+<script>
+
+function myfun()
+{
+   var a=10;
+   let b=20;
+   alert("a:"+a);
+   alert("b:"+b);
+   //let b=30;//not possible as b is alerady decared
+    alert("b:"+b); 
+	var c="20";
+	var d=c+30;
+	
+	if(c===20)
+	{
+	  alert("matches");
+	  
+	}
+	else
+	{
+	  alert("not matches");
+	}
+	
+	for(var i=0;i<arguments.length;i++)
+	{
+	   alert("ith value"+arguments[i]);
+	}
+	
+	
+}
+myfun(10,20,30,40);
+
+</script>
+
+
+</head>
+<body>
+</body>
+</html>
